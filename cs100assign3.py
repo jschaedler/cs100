@@ -9,4 +9,4 @@ else:
     if y >= 0:
         print(x ** 2 + y)
     else:
-        print(x**2+y**2)
+        print(x**2 + y**2)
