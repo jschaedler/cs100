@@ -16,4 +16,7 @@ def ship_cost(w):
 
 
 Weight = float(input('Enter Weight in Pounds: '))
-print('$', ship_cost(Weight))
+if ship_cost(Weight) is None:
+    print('Invalid weight')
+else:
+    print('$', ship_cost(Weight))
