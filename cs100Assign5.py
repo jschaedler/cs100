@@ -15,8 +15,11 @@ def ship_cost(w):
         return None
 
 
-Weight = float(input('Enter Weight in Pounds: '))
-if ship_cost(Weight) == None:
-    print('Invalid weight')
-else:
-    print('$', ship_cost(Weight))
+answer = 'yes'
+while answer == 'yes':
+    weight = float(input('Packege Weight: '))
+    if ship_cost(weight) == None:
+        print('Invalid weight')
+    else:
+        print('$', ship_cost(weight))
+    answer = input('Do you need the shipping cost for another packege?')
