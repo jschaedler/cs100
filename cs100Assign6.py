@@ -32,7 +32,8 @@ for line in line_list:
 for i in range(12):
     Month_names = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                    'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec')
-    print(Month_names[i], temp_sum[i] / day_count[i])
+    print(Month_names[i], 'Average Temperature:',
+          temp_sum[i] / day_count[i])
     f_out.write('Month:' + '\t' + (Month_names[i]) + '\t' + 'Average Temperature: ' +
                 '\t' + str(temp_sum[i] / day_count[i]) + '\n')
 
