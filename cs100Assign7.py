@@ -36,3 +36,4 @@ for sattelite in sorted(sat_dict.keys()):
 
 f_in.close
 f_out.close
+    
